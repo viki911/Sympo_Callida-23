@@ -331,7 +331,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #6b049b;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -382,7 +382,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #6b049b;
   line-height: 1;
 }
 
@@ -390,27 +390,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin-bottom: 0;
 }
 
-.about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 4px;
-  transition: 0.3s;
-  line-height: 1;
-  color: #47b2e4;
-  animation-delay: 0.8s;
-  margin-top: 6px;
-  border: 2px solid #47b2e4;
-}
-
-.about .content .btn-learn-more:hover {
-  background: #47b2e4;
-  color: #fff;
-  text-decoration: none;
-}
 
 
 
@@ -450,7 +429,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
+  background: #6b049b;
   color: #fff;
 }
 
@@ -493,111 +472,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team .member {
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  border-radius: 5px;
-  background: #fff;
-  transition: 0.5s;
-  height: 100%;
-}
-
-.team .member .pic {
-  overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
-}
-
-.team .member .pic img {
-  transition: ease-in-out 0.3s;
-}
-
-.team .member:hover {
-  transform: translateY(-10px);
-}
-
-.team .member .member-info {
-  padding-left: 30px;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #37517e;
-}
-
-.team .member span {
-  display: block;
-  font-size: 15px;
-  padding-bottom: 10px;
-  position: relative;
-  font-weight: 500;
-}
-
-.team .member span::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #cbd6e9;
-  bottom: 0;
-  left: 0;
-}
-
-.team .member p {
-  margin: 10px 0 0 0;
-  font-size: 14px;
-}
-
-.team .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #eff2f8;
-}
-
-.team .member .social a i {
-  color: #37517e;
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.team .member .social a:hover {
-  background: #47b2e4;
-}
-
-.team .member .social a:hover i {
-  color: #fff;
-}
-
-.team .member .social a+a {
-  margin-left: 8px;
-}
 
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #6b049b;
+  border-bottom: 3px solid #6b049b;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -606,7 +488,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #6b049b;
   float: left;
   width: 44px;
   height: 44px;
@@ -657,14 +539,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
+  background: #6b049b;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #6b049b;
   color: #fff;
 }
 
@@ -676,7 +558,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #6b049b;
 }
 
 
