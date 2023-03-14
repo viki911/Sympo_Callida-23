@@ -1,19 +1,3 @@
-/**
-* Template Name: Arsha
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-// document.getElementById("myBtn").click();
-// function myFunction(id) {
-//   var x = document.getElementById(id);
-//   if (x.className.indexOf("w3-show") == -1) {
-//     x.className += " w3-show";
-//   } else { 
-//     x.className = x.className.replace(" w3-show", "");
-//   }
-// }
 
 
 (function() {
@@ -182,23 +166,6 @@
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
-
-  /**
-   * Skills animation
-   */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
-  }
 
   /**
    * Porfolio isotope and filter
