@@ -370,6 +370,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 25px;
 }
 
+#About-img
+{
+  height:500px;
+  width: 500px;
+  
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
