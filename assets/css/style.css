@@ -297,6 +297,11 @@ h6 {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
+
+  #float-img{
+    height:max-content;
+    background-repeat: no-repeat;
+  }
 }
 
 @keyframes up-down {
