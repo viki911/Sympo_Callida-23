@@ -289,9 +289,7 @@ h6 {
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
+ 
 
   #hero .btn-get-started {
     font-size: 16px;
@@ -301,6 +299,7 @@ h6 {
   #float-img{
     height:max-content;
     background-repeat: no-repeat;
+    width: 80%;
   }
 }
 
