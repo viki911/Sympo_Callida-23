@@ -198,7 +198,26 @@ h6 {
   height: 80vh;
   background-image: url('/assets/img/hm1.jpg');
 }
-
+#float-img
+{
+  background-image:url('/assets/img/hm-d.jpg');
+  background-size:contain;
+  text-align: center;
+}
+#float-h1
+{
+  background: rgba( 255, 255, 255, 0.7 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  font-style: italic;
+  width:100%;
+}
+.filler
+{
+  height: 100px;
+}
 #hero .container {
   padding-top: 72px;
 }
@@ -213,7 +232,7 @@ h6 {
 
 #hero h2 {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 500;
   font-size: 30px;
 }
@@ -260,7 +279,7 @@ h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   #hero .hero-img img {
