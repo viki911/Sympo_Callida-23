@@ -203,6 +203,7 @@ h6 {
   background-image:url('/assets/img/hm-d.jpg');
   background-size:contain;
   text-align: center;
+  max-height: max-content;
 }
 #float-h1
 {
